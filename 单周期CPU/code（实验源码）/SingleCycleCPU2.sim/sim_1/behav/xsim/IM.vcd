@@ -1,0 +1,89 @@
+$date
+   Wed Nov 27 16:47:16 2024
+$end
+$version
+  2017.4
+$end
+$timescale
+  1ps
+$end
+$scope module IM_sim $end
+$var reg 32 ! IAddr [31:0] $end
+$var reg 1 " InsMemRW $end
+$var wire 6 # op [5:0] $end
+$var wire 6 $ rs [5:0] $end
+$var wire 6 % rt [5:0] $end
+$var wire 6 & rd [5:0] $end
+$var wire 16 ' immediate [15:0] $end
+$var wire 6 ( shamt [5:0] $end
+$var wire 6 ) func [5:0] $end
+$var wire 32 * IDataOut [31:0] $end
+$scope module uut $end
+$var wire 32 + PC4 [31:0] $end
+$var wire 32 , IAddr [31:0] $end
+$var wire 1 - InsMemRW $end
+$var wire 6 # op [5:0] $end
+$var wire 5 . rs [4:0] $end
+$var wire 5 / rt [4:0] $end
+$var wire 5 0 rd [4:0] $end
+$var wire 16 ' immediate [15:0] $end
+$var wire 6 ) func [5:0] $end
+$var wire 5 1 shamt [4:0] $end
+$var wire 32 2 JumpPC [31:0] $end
+$var reg 32 3 IDataOut [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx !
+x"
+b0 #
+bz00000 $
+bz00000 %
+bz00000 &
+b0 '
+bz00000 (
+b0 )
+b0 *
+bz +
+bx ,
+x-
+b0 .
+b0 /
+b0 0
+b0 1
+bz0000000000000000000000000000 2
+b0 3
+$end
+#10000
+b0 !
+0"
+b0 ,
+0-
+#60000
+b0 !
+1"
+bx #
+bzxxxxx $
+bzxxxxx %
+bzxxxxx &
+bx '
+bzxxxxx (
+bx )
+bx *
+1-
+bx .
+bx /
+bx 0
+bx 1
+bzxxxxxxxxxxxxxxxxxxxxxxxxxx00 2
+bx 3
+#110000
+b100 !
+b100 ,
+bx 3
+#160000
+b1000 !
+b1000 ,
+bx 3

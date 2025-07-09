@@ -1,0 +1,163 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Nov 26 12:16:36 2024
+# Process ID: 67920
+# Current directory: C:/Users/jhinx/Desktop/SingleCycleCPU2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent40368 C:\Users\jhinx\Desktop\SingleCycleCPU2\SingleCycleCPU2.xpr
+# Log file: C:/Users/jhinx/Desktop/SingleCycleCPU2/vivado.log
+# Journal file: C:/Users/jhinx/Desktop/SingleCycleCPU2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.xpr
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sim_1/new/PC_sim.v w ]
+add_files -fileset sim_1 C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sim_1/new/PC_sim.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top PC_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source PC_sim.tcl
+run 500 ns
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sim_1/new/IM_sim.v w ]
+add_files -fileset sim_1 C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sim_1/new/IM_sim.v
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+source PC_sim.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top IM_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source IM_sim.tcl
+run 500 ns
+run 500 ns
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sim_1/new/ALU_sim.v w ]
+add_files -fileset sim_1 C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sim_1/new/ALU_sim.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ALU_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source ALU_sim.tcl
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sim_1/new/DM_sim.v w ]
+add_files -fileset sim_1 C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sim_1/new/DM_sim.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source ALU_sim.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top DM_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top IM_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+undo
+undo
+undo
+undo
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top SingleCycleCPU_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source SingleCycleCPU_sim.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top IM_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+close_sim
+current_sim simulation_5
+close_sim
+current_sim simulation_3
+close_sim
+close_sim
+launch_simulation
+source IM_sim.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top DM_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+source DM_sim.tcl
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sim_1/new/RF_sim.v w ]
+add_files -fileset sim_1 C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sim_1/new/RF_sim.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top RF_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source RF_sim.tcl
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sim_1/new/SZE_sim.v w ]
+add_files -fileset sim_1 C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sim_1/new/SZE_sim.v
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+source RF_sim.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top SZE_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source SZE_sim.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top SingleCycleCPU_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+close_sim
+current_sim simulation_10
+close_sim
+current_sim simulation_8
+close_sim
+close_sim

@@ -1,0 +1,420 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Nov 27 19:21:09 2024
+# Process ID: 24984
+# Current directory: C:/Users/jhinx/Desktop/SingleCycleCPU2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18372 C:\Users\jhinx\Desktop\SingleCycleCPU2\SingleCycleCPU2.xpr
+# Log file: C:/Users/jhinx/Desktop/SingleCycleCPU2/vivado.log
+# Journal file: C:/Users/jhinx/Desktop/SingleCycleCPU2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/jhinx/Desktop/大学课件/计算机组成原理/单周期CPU/23336266熊彦钧/SingleCycleCPU2' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'SingleCycleCPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj SingleCycleCPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/SignZeroExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignZeroExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/SingleCycleCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SingleCycleCPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sim_1/new/SingleCycleCPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SingleCycleCPU_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 9d472ebeaf4947c6a3ef12d8a63a3768 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SingleCycleCPU_sim_behav xil_defaultlib.SingleCycleCPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.SignZeroExtend
+Compiling module xil_defaultlib.SingleCycleCPU
+Compiling module xil_defaultlib.SingleCycleCPU_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot SingleCycleCPU_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SingleCycleCPU_sim_behav -key {Behavioral:sim_1:Functional:SingleCycleCPU_sim} -tclbatch {SingleCycleCPU_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source SingleCycleCPU_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SingleCycleCPU_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: Basys3
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 957.883 ; gain = 83.586
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Basys3' [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/Basys3.v:23]
+INFO: [Synth 8-638] synthesizing module 'Debounce' [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/Debounce.v:23]
+	Parameter SAMPLE_TIME bound to: 5000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Debounce' (1#1) [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/Debounce.v:23]
+INFO: [Synth 8-638] synthesizing module 'SingleCycleCPU' [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/SingleCycleCPU.v:23]
+INFO: [Synth 8-638] synthesizing module 'ALU' [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-226] default block is never used [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/ALU.v:40]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (2#1) [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-638] synthesizing module 'PC' [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/PC.v:23]
+INFO: [Synth 8-256] done synthesizing module 'PC' (3#1) [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/PC.v:23]
+INFO: [Synth 8-638] synthesizing module 'ControlUnit' [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/ControlUnit.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/ControlUnit.v:43]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/ControlUnit.v:41]
+INFO: [Synth 8-256] done synthesizing module 'ControlUnit' (4#1) [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/ControlUnit.v:23]
+INFO: [Synth 8-638] synthesizing module 'DataMemory' [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/DataMemory.v:23]
+WARNING: [Synth 8-4767] Trying to implement RAM 'Memory_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+Reason is one or more of the following :
+	1: RAM has multiple writes via different ports in same process. If RAM inferencing intended, write to one port per process. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM "Memory_reg" dissolved into registers
+INFO: [Synth 8-256] done synthesizing module 'DataMemory' (5#1) [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/DataMemory.v:23]
+INFO: [Synth 8-638] synthesizing module 'InstructionMemory' [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/InstructionMemory.v:23]
+INFO: [Synth 8-3876] $readmem data file 'C:/Users/jhinx/Desktop/SingleCycleCPU2/Instructions.txt' is read successfully [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/InstructionMemory.v:45]
+INFO: [Synth 8-256] done synthesizing module 'InstructionMemory' (6#1) [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/InstructionMemory.v:23]
+INFO: [Synth 8-638] synthesizing module 'RegisterFile' [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:23]
+INFO: [Synth 8-256] done synthesizing module 'RegisterFile' (7#1) [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:23]
+INFO: [Synth 8-638] synthesizing module 'SignZeroExtend' [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/SignZeroExtend.v:23]
+INFO: [Synth 8-256] done synthesizing module 'SignZeroExtend' (8#1) [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/SignZeroExtend.v:23]
+INFO: [Synth 8-256] done synthesizing module 'SingleCycleCPU' (9#1) [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/SingleCycleCPU.v:23]
+INFO: [Synth 8-638] synthesizing module 'Display_7seg' [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/Display_7seg.v:23]
+INFO: [Synth 8-226] default block is never used [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/Display_7seg.v:28]
+INFO: [Synth 8-256] done synthesizing module 'Display_7seg' (10#1) [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/Display_7seg.v:23]
+INFO: [Synth 8-638] synthesizing module 'clk_div' [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/clk_div.v:23]
+	Parameter T1MS bound to: 100000 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/clk_div.v:37]
+INFO: [Synth 8-256] done synthesizing module 'clk_div' (11#1) [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/clk_div.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/Basys3.v:45]
+WARNING: [Synth 8-567] referenced signal 'AN' should be on the sensitivity list [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/Basys3.v:44]
+WARNING: [Synth 8-567] referenced signal 'SW' should be on the sensitivity list [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/Basys3.v:44]
+WARNING: [Synth 8-567] referenced signal 'newaddress' should be on the sensitivity list [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/Basys3.v:44]
+WARNING: [Synth 8-567] referenced signal 'Reg_S' should be on the sensitivity list [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/Basys3.v:44]
+WARNING: [Synth 8-567] referenced signal 'Reg_T' should be on the sensitivity list [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/Basys3.v:44]
+WARNING: [Synth 8-567] referenced signal 'W_data' should be on the sensitivity list [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/Basys3.v:44]
+WARNING: [Synth 8-567] referenced signal 'PC' should be on the sensitivity list [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/Basys3.v:44]
+WARNING: [Synth 8-567] referenced signal 'Instruction' should be on the sensitivity list [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/Basys3.v:44]
+WARNING: [Synth 8-567] referenced signal 'ALUOUT' should be on the sensitivity list [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/Basys3.v:44]
+INFO: [Synth 8-256] done synthesizing module 'Basys3' (12#1) [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/Basys3.v:23]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port PC4[27]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port PC4[26]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port PC4[25]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port PC4[24]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port PC4[23]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port PC4[22]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port PC4[21]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port PC4[20]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port PC4[19]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port PC4[18]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port PC4[17]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port PC4[16]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port PC4[15]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port PC4[14]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port PC4[13]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port PC4[12]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port PC4[11]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port PC4[10]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port PC4[9]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port PC4[8]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port PC4[7]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port PC4[6]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port PC4[5]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port PC4[4]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port PC4[3]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port PC4[2]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port PC4[1]
+WARNING: [Synth 8-3331] design InstructionMemory has unconnected port PC4[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 1024.969 ; gain = 150.672
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 1024.969 ; gain = 150.672
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/constrs_1/new/Basys3.xdc]
+WARNING: [Vivado 12-584] No ports matched 'Out[7]'. [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/constrs_1/new/Basys3.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/constrs_1/new/Basys3.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Out[6]'. [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/constrs_1/new/Basys3.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/constrs_1/new/Basys3.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Out[5]'. [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/constrs_1/new/Basys3.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/constrs_1/new/Basys3.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Out[4]'. [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/constrs_1/new/Basys3.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/constrs_1/new/Basys3.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Out[3]'. [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/constrs_1/new/Basys3.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/constrs_1/new/Basys3.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Out[2]'. [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/constrs_1/new/Basys3.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/constrs_1/new/Basys3.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Out[1]'. [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/constrs_1/new/Basys3.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/constrs_1/new/Basys3.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Out[0]'. [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/constrs_1/new/Basys3.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/constrs_1/new/Basys3.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Out[7]'. [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/constrs_1/new/Basys3.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/constrs_1/new/Basys3.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Out[6]'. [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/constrs_1/new/Basys3.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/constrs_1/new/Basys3.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Out[5]'. [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/constrs_1/new/Basys3.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/constrs_1/new/Basys3.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Out[4]'. [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/constrs_1/new/Basys3.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/constrs_1/new/Basys3.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Out[3]'. [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/constrs_1/new/Basys3.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/constrs_1/new/Basys3.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Out[2]'. [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/constrs_1/new/Basys3.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/constrs_1/new/Basys3.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Out[1]'. [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/constrs_1/new/Basys3.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/constrs_1/new/Basys3.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Out[0]'. [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/constrs_1/new/Basys3.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/constrs_1/new/Basys3.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.srcs/constrs_1/new/Basys3.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 1380.090 ; gain = 505.793
+35 Infos, 54 Warnings, 16 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 1380.090 ; gain = 505.793
+close_design
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.runs/synth_1
+
+launch_runs synth_1 -jobs 5
+[Wed Nov 27 19:22:46 2024] Launched synth_1...
+Run output will be captured here: C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 5
+[Wed Nov 27 19:23:34 2024] Launched impl_1...
+Run output will be captured here: C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 5
+[Wed Nov 27 19:25:27 2024] Launched impl_1...
+Run output will be captured here: C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.4
+  **** Build date : Dec 15 2017-21:08:27
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A284CBA
+set_property PROGRAM.FILE {C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.runs/impl_1/Basys3.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.runs/impl_1/Basys3.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+set_property STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE true [get_runs impl_1]
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 5
+[Wed Nov 27 19:39:51 2024] Launched impl_1...
+Run output will be captured here: C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.4
+  **** Build date : Dec 15 2017-21:08:27
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A284CBA
+set_property PROGRAM.FILE {C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.runs/impl_1/Basys3.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+create_hw_cfgmem -hw_device [lindex [get_hw_devices xc7a35t_0] 0] [lindex [get_cfgmem_parts {s25fl032p-spi-x1_x2_x4}] 0]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 5
+[Wed Nov 27 19:43:16 2024] Launched impl_1...
+Run output will be captured here: C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 71 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/jhinx/Desktop/SingleCycleCPU2/.Xil/Vivado-24984-LAPTOP-1A1H3D3D/dcp2/Basys3.xdc]
+Finished Parsing XDC File [C:/Users/jhinx/Desktop/SingleCycleCPU2/.Xil/Vivado-24984-LAPTOP-1A1H3D3D/dcp2/Basys3.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.134 . Memory (MB): peak = 2015.836 ; gain = 3.070
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.134 . Memory (MB): peak = 2015.836 ; gain = 3.070
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 12 instances were transformed.
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 12 instances
+
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+delete_hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [get_hw_devices xc7a35t_0 ]]
+refresh_hw_sysmon  [get_hw_sysmons localhost:3121/xilinx_tcf/Digilent/210183A284CBA/xc7a35t_0/SYSMON]
+create_hw_cfgmem -hw_device [lindex [get_hw_devices xc7a35t_0] 0] [lindex [get_cfgmem_parts {s25fl032p-spi-x1_x2_x4}] 0]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.FILES [list "C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.runs/impl_1/Basys3.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.PRM_FILE {} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.UNUSED_PIN_TERMINATION {pull-none} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+startgroup 
+if {![string equal [get_property PROGRAM.HW_CFGMEM_TYPE  [lindex [get_hw_devices xc7a35t_0] 0]] [get_property MEM_TYPE [get_property CFGMEM_PART [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]]]] }  { create_hw_bitstream -hw_device [lindex [get_hw_devices xc7a35t_0] 0] [get_property PROGRAM.HW_CFGMEM_BITFILE [ lindex [get_hw_devices xc7a35t_0] 0]]; program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]; }; 
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+Mfg ID : 1   Memory Type : 2   Memory Capacity : 15   Device ID 1 : 0   Device ID 2 : 0
+Performing Erase Operation...
+Erase Operation successful.
+Performing Program and Verify Operations...
+Program/Verify Operation successful.
+INFO: [Labtoolstcl 44-377] Flash programming completed successfully
+program_hw_cfgmem: Time (s): cpu = 00:00:00 ; elapsed = 00:00:53 . Memory (MB): peak = 2583.832 ; gain = 0.000
+endgroup
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/jhinx/Desktop/SingleCycleCPU2/SingleCycleCPU2.runs/impl_1/Basys3.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+close_design
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 27 19:46:56 2024...

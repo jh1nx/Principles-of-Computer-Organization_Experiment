@@ -1,0 +1,235 @@
+$date
+   Wed Nov 27 17:06:09 2024
+$end
+$version
+  2017.4
+$end
+$timescale
+  1ps
+$end
+$scope module ALU_sim $end
+$var reg 32 ! ReadData1 [31:0] $end
+$var reg 32 " ReadData2 [31:0] $end
+$var reg 32 # immExt [31:0] $end
+$var reg 32 $ shamt [31:0] $end
+$var reg 3 % ALUop [2:0] $end
+$var reg 1 & ALUSrcA $end
+$var reg 1 ' ALUSrcB $end
+$var wire 1 ( zero $end
+$var wire 32 ) result [31:0] $end
+$scope module uut $end
+$var wire 32 * ReadData1 [31:0] $end
+$var wire 32 + ReadData2 [31:0] $end
+$var wire 32 , immExt [31:0] $end
+$var wire 5 - shamt [4:0] $end
+$var wire 3 . ALUop [2:0] $end
+$var wire 1 / ALUSrcA $end
+$var wire 1 0 ALUSrcB $end
+$var wire 1 ( zero $end
+$var wire 1 1 sign $end
+$var reg 32 2 result [31:0] $end
+$var wire 32 3 InA [31:0] $end
+$var wire 32 4 InB [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+b0 "
+b1 #
+b1 $
+b0 %
+0&
+0'
+1(
+b0 )
+b0 *
+b0 +
+b1 ,
+b1 -
+b0 .
+0/
+00
+01
+b0 2
+b0 3
+b0 4
+$end
+#50000
+b0 !
+b0 "
+b1 #
+b1 $
+b0 %
+1&
+0(
+b1 )
+1/
+b1 2
+b1 3
+#100000
+b1 !
+b10 "
+b11 #
+b100 $
+b1 %
+0&
+b11111111111111111111111111111111 )
+b1 *
+b10 +
+b11 ,
+b100 -
+b1 .
+0/
+11
+b11111111111111111111111111111111 2
+b1 3
+b10 4
+#150000
+b1 !
+b10 "
+b11 #
+b100 $
+b1 %
+1&
+b10 )
+1/
+01
+b10 2
+b100 3
+#200000
+b1 !
+b10 "
+b10 #
+b100 $
+b10 %
+0&
+b100 )
+b10 ,
+b10 .
+0/
+b100 2
+b1 3
+b10 4
+#250000
+b1 !
+b10 "
+b10 #
+b100 $
+b10 %
+1&
+b100000 )
+1/
+b100000 2
+b100 3
+#300000
+b1 !
+b10 "
+b10 #
+b100 $
+b11 %
+0&
+b11 )
+b11 .
+0/
+b11 2
+b1 3
+#350000
+b1 !
+b10 "
+b10 #
+b100 $
+b11 %
+1&
+b110 )
+1/
+b110 2
+b100 3
+#400000
+b1 !
+b10 "
+b10 #
+b100 $
+b100 %
+0&
+1(
+b0 )
+b100 .
+0/
+b0 2
+b1 3
+#450000
+b1 !
+b10 "
+b10 #
+b100 $
+b100 %
+1&
+1/
+b0 2
+b100 3
+#500000
+b1 !
+b10 "
+b10 #
+b1 $
+b101 %
+0&
+0(
+b1 )
+b1 -
+b101 .
+0/
+b1 2
+b1 3
+#550000
+b1 !
+b10 "
+b10 #
+b1 $
+b101 %
+1&
+1/
+b1 3
+#600000
+b1 !
+b10 "
+b10 #
+b1 $
+b110 %
+0&
+b110 .
+0/
+b1 2
+b1 3
+#650000
+b1 !
+b10 "
+b10 #
+b1 $
+b110 %
+1&
+1/
+b1 3
+#700000
+b1 !
+b10 "
+b10 #
+b1 $
+b111 %
+0&
+b11 )
+b111 .
+0/
+b11 2
+b1 3
+#750000
+b1 !
+b10 "
+b10 #
+b1 $
+b111 %
+1&
+1/
+b1 3

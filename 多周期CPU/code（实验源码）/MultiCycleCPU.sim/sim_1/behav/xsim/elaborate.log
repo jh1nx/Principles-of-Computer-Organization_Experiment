@@ -1,0 +1,26 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 25b83898df83448aa9a4fe4dd3f3ca60 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MultiCycleCPU_sim_behav xil_defaultlib.MultiCycleCPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 5 for port writeReg [C:/Users/jhinx/Desktop/MultiCycleCPU/MultiCycleCPU.srcs/sim_1/new/MultiCycleCPU_sim.v:50]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.SignZeroExtend
+Compiling module xil_defaultlib.InstructionRegister
+Compiling module xil_defaultlib.DFF
+Compiling module xil_defaultlib.Mux4_32bits
+Compiling module xil_defaultlib.Mux3_5bits
+Compiling module xil_defaultlib.Mux2_32bits
+Compiling module xil_defaultlib.MultiCycleCPU
+Compiling module xil_defaultlib.MultiCycleCPU_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot MultiCycleCPU_sim_behav

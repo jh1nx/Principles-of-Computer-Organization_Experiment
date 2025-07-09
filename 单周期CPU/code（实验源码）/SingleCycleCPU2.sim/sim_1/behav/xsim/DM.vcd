@@ -1,0 +1,91 @@
+$date
+   Wed Nov 27 17:14:52 2024
+$end
+$version
+  2017.4
+$end
+$timescale
+  1ps
+$end
+$scope module DM_sim $end
+$var reg 1 ! CLK $end
+$var reg 32 " DAddr [31:0] $end
+$var reg 32 # DataIn [31:0] $end
+$var reg 1 $ mRD $end
+$var reg 1 % mWR $end
+$var wire 32 & DMOut [31:0] $end
+$scope module uut $end
+$var wire 1 ' CLK $end
+$var wire 32 ( DAddr [31:0] $end
+$var wire 32 ) DataIn [31:0] $end
+$var wire 1 * mRD $end
+$var wire 1 + mWR $end
+$var wire 32 & DMOut [31:0] $end
+$var wire 32 , address [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+b0 "
+b0 #
+0$
+0%
+bz &
+0'
+b0 (
+b0 )
+0*
+0+
+b0 ,
+$end
+#15000
+1!
+1'
+#30000
+0!
+b1000 "
+b11001 #
+1%
+0'
+b1000 (
+b11001 )
+1+
+b100000 ,
+#45000
+1!
+1'
+#60000
+0!
+b1100 "
+b1001001 #
+0'
+b1100 (
+b1001001 )
+b110000 ,
+#75000
+1!
+1'
+#90000
+0!
+b1100 "
+1$
+0%
+b1001001 &
+0'
+1*
+0+
+#105000
+1!
+1'
+#120000
+0!
+b1000 "
+b11001 &
+0'
+b1000 (
+b100000 ,
+#135000
+1!
+1'

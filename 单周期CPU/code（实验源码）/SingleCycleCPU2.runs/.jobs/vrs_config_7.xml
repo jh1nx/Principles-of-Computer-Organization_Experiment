@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="synth_1" LaunchDir="C:/Users/jhinx/Desktop/大学课件/计算机组成原理/单周期CPU/23336266熊彦钧/SingleCycleCPU2/SingleCycleCPU2.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

@@ -1,0 +1,48 @@
+$date
+   Wed Nov 27 17:18:22 2024
+$end
+$version
+  2017.4
+$end
+$timescale
+  1ps
+$end
+$scope module SZE_sim $end
+$var reg 16 ! immediate [15:0] $end
+$var reg 1 " ExtSel $end
+$var wire 32 # immExt [31:0] $end
+$scope module uut $end
+$var wire 16 $ immediate [15:0] $end
+$var wire 1 % ExtSel $end
+$var wire 32 # immExt [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx !
+x"
+bx #
+bx $
+x%
+$end
+#50000
+b1010 !
+1"
+b1010 #
+b1010 $
+1%
+#100000
+b1000000000000111 !
+b11111111111111111000000000000111 #
+b1000000000000111 $
+#150000
+b1010 !
+0"
+b1010 #
+b1010 $
+0%
+#200000
+b111 !
+b111 #
+b111 $

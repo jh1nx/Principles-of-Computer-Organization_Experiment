@@ -1,0 +1,19 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+C:/Users/jhinx/Desktop/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+C:/Users/jhinx/Desktop/MultiCycleCPU/MultiCycleCPU.srcs/sim_1/new/MultiCycleCPU_sim.v,1735299300,verilog,,,,MultiCycleCPU_sim,,,,,,,,
+C:/Users/jhinx/Desktop/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ALU.v,1734751092,verilog,,C:/Users/jhinx/Desktop/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v,,ALU,,,,,,,,
+C:/Users/jhinx/Desktop/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v,1735311812,verilog,,C:/Users/jhinx/Desktop/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DFF.v,,ControlUnit,,,,,,,,
+C:/Users/jhinx/Desktop/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DFF.v,1734944807,verilog,,C:/Users/jhinx/Desktop/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DataMemory.v,,DFF,,,,,,,,
+C:/Users/jhinx/Desktop/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DataMemory.v,1734788582,verilog,,C:/Users/jhinx/Desktop/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/InstructionMemory.v,,DataMemory,,,,,,,,
+C:/Users/jhinx/Desktop/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/InstructionMemory.v,1735372361,verilog,,C:/Users/jhinx/Desktop/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/InstructionRegister.v,,InstructionMemory,,,,,,,,
+C:/Users/jhinx/Desktop/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/InstructionRegister.v,1734788089,verilog,,C:/Users/jhinx/Desktop/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/MultiCycleCPU.v,,InstructionRegister,,,,,,,,
+C:/Users/jhinx/Desktop/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/MultiCycleCPU.v,1735441537,verilog,,C:/Users/jhinx/Desktop/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/Mux2_32bits.v,,MultiCycleCPU,,,,,,,,
+C:/Users/jhinx/Desktop/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/Mux2_32bits.v,1734663331,verilog,,C:/Users/jhinx/Desktop/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/Mux3_5bits.v,,Mux2_32bits,,,,,,,,
+C:/Users/jhinx/Desktop/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/Mux3_5bits.v,1734750931,verilog,,C:/Users/jhinx/Desktop/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/Mux4_32bits.v,,Mux3_5bits,,,,,,,,
+C:/Users/jhinx/Desktop/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/Mux4_32bits.v,1734750578,verilog,,C:/Users/jhinx/Desktop/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/PC.v,,Mux4_32bits,,,,,,,,
+C:/Users/jhinx/Desktop/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/PC.v,1735311526,verilog,,C:/Users/jhinx/Desktop/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v,,PC,,,,,,,,
+C:/Users/jhinx/Desktop/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v,1734944222,verilog,,C:/Users/jhinx/Desktop/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/SignZeroExtend.v,,RegisterFile,,,,,,,,
+C:/Users/jhinx/Desktop/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/SignZeroExtend.v,1734948017,verilog,,C:/Users/jhinx/Desktop/MultiCycleCPU/MultiCycleCPU.srcs/sim_1/new/MultiCycleCPU_sim.v,,SignZeroExtend,,,,,,,,

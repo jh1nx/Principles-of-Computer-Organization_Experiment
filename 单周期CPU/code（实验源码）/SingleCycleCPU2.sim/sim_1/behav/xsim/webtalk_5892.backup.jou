@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Nov 27 17:29:20 2024
+# Process ID: 5892
+# Current directory: C:/Users/jhinx/Desktop/大学课件/计算机组成原理/单周期CPU/23336266熊彦钧/SingleCycleCPU2/SingleCycleCPU2.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/jhinx/Desktop/大学课件/计算机组成原理/单周期CPU/23336266熊彦钧/SingleCycleCPU2/SingleCycleCPU2.sim/sim_1/behav/xsim/xsim.dir/ALU_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/jhinx/Desktop/大学课件/计算机组成原理/单周期CPU/23336266熊彦钧/SingleCycleCPU2/SingleCycleCPU2.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/jhinx/Desktop/大学课件/计算机组成原理/单周期CPU/23336266熊彦钧/SingleCycleCPU2/SingleCycleCPU2.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/jhinx/Desktop/大学课件/计算机组成原理/单周期CPU/23336266熊彦钧/SingleCycleCPU2/SingleCycleCPU2.sim/sim_1/behav/xsim/xsim.dir/ALU_sim_behav/webtalk/xsim_webtalk.tcl -notrace

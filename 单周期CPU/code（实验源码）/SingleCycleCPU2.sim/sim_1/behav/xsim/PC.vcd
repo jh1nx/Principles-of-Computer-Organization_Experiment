@@ -1,0 +1,162 @@
+$date
+   Wed Nov 27 16:43:13 2024
+$end
+$version
+  2017.4
+$end
+$timescale
+  1ps
+$end
+$scope module PC_sim $end
+$var reg 1 ! CLK $end
+$var reg 1 " reset $end
+$var reg 1 # PCWre $end
+$var reg 2 $ PCSrc [1:0] $end
+$var reg 32 % immExt [31:0] $end
+$var reg 32 & JumpPC [31:0] $end
+$var wire 32 ' address [31:0] $end
+$var wire 32 ( nextaddress [31:0] $end
+$scope module uut $end
+$var wire 1 ) CLK $end
+$var wire 1 * reset $end
+$var wire 1 + PCWre $end
+$var wire 2 , PCSrc [1:0] $end
+$var wire 32 - immExt [31:0] $end
+$var wire 32 . JumpPC [31:0] $end
+$var reg 32 / address [31:0] $end
+$var wire 32 ( nextaddress [31:0] $end
+$var wire 32 0 PC4 [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+b0 $
+b0 %
+bx &
+b0 '
+b100 (
+0)
+0*
+0+
+b0 ,
+b0 -
+bx .
+b0 /
+b100 0
+$end
+#15000
+1!
+1)
+#30000
+0!
+0)
+b0 /
+#45000
+1!
+1)
+#50000
+1"
+1#
+b0 $
+b100 %
+1*
+1+
+b100 -
+#60000
+0!
+b100 '
+b1000 (
+0)
+b100 /
+b1000 0
+#75000
+1!
+1)
+#90000
+0!
+b1000 '
+b1100 (
+0)
+b1000 /
+b1100 0
+#100000
+b0 $
+b100 %
+#105000
+1!
+1)
+#120000
+0!
+b1100 '
+b10000 (
+0)
+b1100 /
+b10000 0
+#135000
+1!
+1)
+#150000
+0!
+b1 $
+b100 %
+b100000 '
+b110100 (
+0)
+b1 ,
+b100000 /
+b100100 0
+#165000
+1!
+1)
+#180000
+0!
+b110100 '
+b1001000 (
+0)
+b110100 /
+b111000 0
+#195000
+1!
+1)
+#200000
+b1 $
+b100 %
+#210000
+0!
+b1001000 '
+b1011100 (
+0)
+b1001000 /
+b1001100 0
+#225000
+1!
+1)
+#240000
+0!
+b1011100 '
+b1110000 (
+0)
+b1011100 /
+b1100000 0
+#250000
+b10 $
+b1000 &
+b1000 (
+b10 ,
+b1000 .
+#255000
+1!
+1)
+#270000
+0!
+b1000 '
+0)
+b1000 /
+b1100 0
+#285000
+1!
+1)

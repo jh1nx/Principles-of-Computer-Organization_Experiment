@@ -1,0 +1,105 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Nov 27 19:51:30 2024
+| Host         : LAPTOP-1A1H3D3D running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Basys3_control_sets_placed.rpt
+| Design       : Basys3
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    41 |
+| Unused register locations in slices containing registers |    21 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              18 |            8 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              54 |           15 |
+| Yes          | No                    | No                     |            1028 |          420 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               7 |            3 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------------------------------+-------------------------------------------+--------------------------------------+------------------+----------------+
+|              Clock Signal              |               Enable Signal               |           Set/Reset Signal           | Slice Load Count | Bel Load Count |
++----------------------------------------+-------------------------------------------+--------------------------------------+------------------+----------------+
+|  CLK_IBUF_BUFG                         |                                           |                                      |                1 |              1 |
+|  clk_div/E[0]                          |                                           |                                      |                1 |              4 |
+|  CLK_IBUF_BUFG                         | clk_div/FSM_onehot_AN[3]_i_1_n_0          |                                      |                1 |              4 |
+|  debounce/key_out_reg_BUFG             | SingleCycleCPU/CU/E[0]                    | SingleCycleCPU/pc/address[7]_i_1_n_0 |                3 |              7 |
+|  SingleCycleCPU/pc/address_reg[7]_1[0] |                                           |                                      |                6 |             13 |
+|  CLK_IBUF_BUFG                         |                                           | debounce/clear                       |                4 |             16 |
+|  CLK_IBUF_BUFG                         |                                           | button_IBUF                          |                4 |             16 |
+|  CLK_IBUF_BUFG                         |                                           | clk_div/counter[21]_i_1_n_0          |                7 |             22 |
+|  debounce/key_out_reg_BUFG             | SingleCycleCPU/CU/Memory_reg[50][0][0]    |                                      |               11 |             32 |
+|  debounce/key_out_reg_BUFG             | SingleCycleCPU/CU/Memory_reg[34][0][0]    |                                      |               11 |             32 |
+|  debounce/key_out_reg_BUFG             | SingleCycleCPU/CU/Memory_reg[58][0][0]    |                                      |               13 |             32 |
+|  debounce/key_out_reg_BUFG             | SingleCycleCPU/CU/Memory_reg[38][0][0]    |                                      |               14 |             32 |
+|  debounce/key_out_reg_BUFG             | SingleCycleCPU/CU/Memory_reg[86][0][0]    |                                      |               14 |             32 |
+|  debounce/key_out_reg_BUFG             | SingleCycleCPU/CU/Memory_reg[90][0][0]    |                                      |               12 |             32 |
+|  debounce/key_out_reg_BUFG             | SingleCycleCPU/CU/Memory_reg[78][0][0]    |                                      |               13 |             32 |
+|  debounce/key_out_reg_BUFG             | SingleCycleCPU/CU/Memory_reg[98][0][0]    |                                      |               22 |             32 |
+|  debounce/key_out_reg_BUFG             | SingleCycleCPU/CU/Memory_reg[54][0][0]    |                                      |               10 |             32 |
+|  debounce/key_out_reg_BUFG             | SingleCycleCPU/CU/Memory_reg[82][0][0]    |                                      |               13 |             32 |
+|  debounce/key_out_reg_BUFG             | SingleCycleCPU/CU/Memory_reg[94][0][0]    |                                      |               11 |             32 |
+|  debounce/key_out_reg_BUFG             | SingleCycleCPU/CU/Memory_reg[66][0][0]    |                                      |               11 |             32 |
+|  debounce/key_out_reg_BUFG             | SingleCycleCPU/CU/Memory_reg[42][0][0]    |                                      |               19 |             32 |
+|  debounce/key_out_reg_BUFG             | SingleCycleCPU/CU/Memory_reg[70][0][0]    |                                      |               10 |             32 |
+|  debounce/key_out_reg_BUFG             | SingleCycleCPU/CU/Memory_reg[114][0][0]   |                                      |               14 |             32 |
+|  debounce/key_out_reg_BUFG             | SingleCycleCPU/CU/Memory_reg[122][0][0]   |                                      |               12 |             32 |
+|  debounce/key_out_reg_BUFG             | SingleCycleCPU/CU/Memory_reg[118][0][0]   |                                      |                8 |             32 |
+|  debounce/key_out_reg_BUFG             | SingleCycleCPU/CU/Memory_reg[106][0][0]   |                                      |               10 |             32 |
+|  debounce/key_out_reg_BUFG             | SingleCycleCPU/CU/Memory_reg[102][0]_3[0] |                                      |               10 |             32 |
+|  debounce/key_out_reg_BUFG             | SingleCycleCPU/CU/Memory_reg[110][0][0]   |                                      |               12 |             32 |
+|  debounce/key_out_reg_BUFG             | SingleCycleCPU/CU/Memory_reg[126][0][0]   |                                      |               15 |             32 |
+|  debounce/key_out_reg_BUFG             | SingleCycleCPU/CU/Memory_reg[18][0]_2[0]  |                                      |               12 |             32 |
+|  debounce/key_out_reg_BUFG             | SingleCycleCPU/CU/Memory_reg[30][0][0]    |                                      |               15 |             32 |
+|  debounce/key_out_reg_BUFG             | SingleCycleCPU/CU/Memory_reg[14][0][0]    |                                      |                8 |             32 |
+|  debounce/key_out_reg_BUFG             | SingleCycleCPU/CU/Memory_reg[26][0][0]    |                                      |               15 |             32 |
+|  debounce/key_out_reg_BUFG             | SingleCycleCPU/CU/Memory_reg[2][0][0]     |                                      |               11 |             32 |
+|  debounce/key_out_reg_BUFG             | SingleCycleCPU/CU/Memory_reg[22][0][0]    |                                      |               17 |             32 |
+|  debounce/key_out_reg_BUFG             | SingleCycleCPU/CU/Memory_reg[62][0][0]    |                                      |               18 |             32 |
+|  debounce/key_out_reg_BUFG             | SingleCycleCPU/CU/Memory_reg[46][0][0]    |                                      |               21 |             32 |
+|  debounce/key_out_reg_BUFG             | SingleCycleCPU/CU/Memory_reg[6][0][0]     |                                      |               14 |             32 |
+|  debounce/key_out_reg_BUFG             | SingleCycleCPU/CU/Memory_reg[74][0][0]    |                                      |                9 |             32 |
+|  debounce/key_out_reg_BUFG             | SingleCycleCPU/CU/Memory_reg[10][0][0]    |                                      |               14 |             32 |
+|  debounce/key_out_reg_BUFG             | SingleCycleCPU/CU/RegWre                  |                                      |               12 |             96 |
++----------------------------------------+-------------------------------------------+--------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                     1 |
+| 4      |                     2 |
+| 7      |                     1 |
+| 13     |                     1 |
+| 16+    |                    36 |
++--------+-----------------------+
+
+
